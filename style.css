@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Prompt", sans-serif;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Heavitas";
+  src: url("assets/Heavitas.ttf");
+}
+
+body {
+  background: url("assets/austronaut-in-wilderness.png") no-repeat center center;
+}
+
+.vignette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  box-shadow: inset 0 0 220px 220px rgba(0, 0, 0, 1);
+  pointer-events: none;
+  z-index: -1;
+}
+
+main {
+  position: relative;
+  z-index: 0;
+}
+
+h1 {
+  color: white;
+  margin-top: 10%;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+h1 span:first-child {
+  font-family: "Prompt", sans-serif;
+}
+
+h1 span:last-child {
+  font-family: "Heavitas", sans-serif;
+}
