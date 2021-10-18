@@ -1,5 +1,7 @@
 {
-  "author": "Wiktoria Mielcarek",
-  "type": "module",
-  "devDependencies": {}
+  "author": "Wiktoria Mielcarek <w.mielcarek@braweria.de> (https://github.com/braweria)",
+  "version": "1.0.0",
+  "name": "alien-wilderness",
+  "description": "Movie Poster Website for the 'web dev and web design' WebJam",
+  "type": "module"
 }
