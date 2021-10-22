@@ -10,5 +10,5 @@ const scarySound = new Audio(
 wildernessSound.volume = 0.1;
 scarySound.volume = 0.1;
 
-// wildernessSound.play();
-// scarySound.play();
+wildernessSound.play();
+scarySound.play();
