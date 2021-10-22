@@ -7,9 +7,6 @@ const scarySound = new Audio(
 );
 // https://freesound.org/people/dobroide/sounds/47349/
 
-const playBtn = document.querySelector("#play");
-const pauseBtn = document.querySelector("#pause");
-
 wildernessSound.volume = 0.1;
 scarySound.volume = 0.1;
 
