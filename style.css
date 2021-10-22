@@ -297,4 +297,9 @@ aside button span {
   h1 {
     font-size: 3rem;
   }
+
+  .trailer {
+    width: 80%;
+    margin: auto;
+  }
 }
