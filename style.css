@@ -261,3 +261,40 @@ aside button span {
   transform: translate(-50%, -50%);
   transition: transform 0.3;
 }
+
+@media (max-width: 1440px) {
+  main {
+    padding: 100px;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (aspect-ratio: 4/3) {
+  main {
+    padding: 50px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .vignette {
+    pointer-events: none;
+    box-shadow: inset 0 0 220px 100px rgba(0, 0, 0, 1);
+  }
+
+  main {
+    padding: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas:
+      "text"
+      "aside";
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
