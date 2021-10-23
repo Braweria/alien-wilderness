@@ -5,10 +5,6 @@
   --primary-color-light: rgb(214, 37, 67);
 }
 
-/*
-* Chillax: https://www.fontshare.com/fonts/chillax
-*/
-
 @font-face {
   font-family: "Heavitas";
   src: url("assets/Heavitas.ttf");
