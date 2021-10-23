@@ -2,7 +2,7 @@
 
 This simple website is part of _web dev and web design_'s WebJam.
 
-<a style="display: block; border: 1px solid grey; padding: 10px; border-radius: 5px; text-align: center;" href="https://alien-wilderness.vercel.app">https://alien-wilderness.vercel.app</a>
+<a href="https://alien-wilderness.vercel.app">https://alien-wilderness.vercel.app</a>
 
 ## The Theme: Movies
 
